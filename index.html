@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tao's Project</title>
+		<link rel="stylesheet" href="openSource/bootstrap-3.1.1/dist/css/bootstrap.css">
+		<script src="openSource/angular/angular-1.2.28/angular.js"></script>
+		<script src="openSource/angular/angular-ui-router-0.2.13/release/angular-ui-router.js"></script>
+		<script src="js/test.js"></script>
+	</head>
+
+	<body ng-app="routerApp">
+		<!-- NAVIGATION -->
+		<nav class="navbar navbar-inverse" role="navigation">
+		    <div class="navbar-header">
+		        <a class="navbar-brand" ui-sref="#">Tao's Project</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		        <li><a ui-sref="home">Home</a></li>
+		        <li><a ui-sref="stock">Stock</a></li>
+		    </ul>
+		</nav>
+
+		<!-- Main Content -->
+		<div class="container">
+			<!-- views -->
+			<div ui-view></div>
+		</div>
+	</body>
+</html>
