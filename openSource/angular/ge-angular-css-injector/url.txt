@@ -1,3 +1,0 @@
-gst:
-
-https://github.com/Yappli/angular-css-injector
